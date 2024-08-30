@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
-import unittest
-from parameterized import parameterized
-from utils import access_nested_map
+"""Unit tests for utils module"""
 
-from typing import (
-    Any,
-    Dict,
-    Tuple
-)
+import unittest
+from typing import Any, Dict, Tuple
+
+from parameterized import parameterized
+
+from utils import access_nested_map
 
 
 class TestNestedMaps(unittest.TestCase):
